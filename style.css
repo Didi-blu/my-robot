@@ -1,0 +1,103 @@
+h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  background-image: url(/robotic.jpg);
+  height: 100vh;
+  background-position: center;
+}
+.robots {
+  display: flex;
+  justify-content: center;
+}
+.head,
+.left_arm,
+.torso,
+.right_arm,
+.left_leg,
+.right_leg {
+  background-color: #df7538;
+}
+
+.head {
+  border-radius: 200px 200px 0px 0px;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.head:hover {
+  width: 300px;
+  transition: ease-in-out 1s;
+}
+.upper_body {
+  display: flex;
+  width: 300px;
+  height: 150px;
+}
+.left_arm,
+.right_arm {
+  border-radius: 200px;
+  height: 150px;
+  width: 50px;
+}
+.torso {
+  width: 250px;
+  height: 250px;
+  border-radius: 0 0 200px 200px;
+}
+.left_arm {
+  margin-right: 10px;
+}
+.right_arm {
+  margin-left: 10px;
+}
+.right_arm:hover {
+  transform: rotate(-60deg);
+}
+.lower_body {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+.left_leg,
+.right_leg {
+  border-radius: 0 0 200px 200px;
+  height: 200px;
+  width: 50px;
+}
+.left_leg {
+  margin-left: 35px;
+}
+.left_leg:hover {
+  transform: rotate(20deg);
+}
+.right_leg {
+  margin-left: 35px;
+}
+.right_leg:hover {
+  transform: rotate(-20deg);
+}
+.eyes {
+  display: flex;
+}
+.left_eye,
+.right_eye {
+  background-color: rgb(229, 233, 7);
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+}
+.left_eye {
+  position: relative;
+  top: 100px;
+  left: 40px;
+}
+.right_eye {
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
